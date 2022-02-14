@@ -13,7 +13,7 @@ class NewsService {
     return singleton;
   }
   static Future<List<Articles>?> getNews() async {
-    var url = Uri.parse("https://newsapi.org/v2/top-headlines?country=tr&apiKey=38fb9a9b63b249fd871b082426e309e3");
+    var url = Uri.parse("https://newsapi.org/v2/top-headlines?country=tr&apiKey=***********************************");
 
     final response = await http.get(url);
 
